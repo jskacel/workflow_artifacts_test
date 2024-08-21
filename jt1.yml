@@ -1,5 +1,6 @@
 - name: Job template 1
   hosts: all
+  gather_facts: false
 
   tasks:
   - name: list of stuff
