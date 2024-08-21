@@ -7,6 +7,4 @@
     ansible.builtin.set_stats:
       data:
         packages_installed: "{{ 100 | random }}"
-      per_host: true
-
 
