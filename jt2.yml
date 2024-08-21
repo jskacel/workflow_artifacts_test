@@ -1,0 +1,8 @@
+- name: Job template 1
+  hosts: all
+
+  tasks:
+  - name: print stuff
+    ansible.builtin.debug:
+      var: packages_installed
+
