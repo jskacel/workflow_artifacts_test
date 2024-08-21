@@ -5,5 +5,5 @@
   tasks:
   - name: print stuff
     ansible.builtin.debug:
-      var: packages_installed
+      var: test_data
 
